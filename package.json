@@ -1,0 +1,54 @@
+{
+  "name": "engrocery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "build": "webpack -d --watch",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"**/*.{js,jsx}\" --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groceryListHelper/engrocery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groceryListHelper/engrocery/issues"
+  },
+  "homepage": "https://github.com/groceryListHelper/engrocery#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "eslint-config": "^0.3.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.2",
+    "prettier": "^1.18.2",
+    "sinon": "^7.5.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "semantic-ui-react": "^0.88.1"
+  }
+}
